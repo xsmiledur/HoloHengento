@@ -1,0 +1,21 @@
+﻿  stdafx.cpp
+  CppPlugin2.cpp
+c:\users\dell\documents\unity\holohengento\debugproj\cppplugin2.cpp(23): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+c:\users\dell\documents\unity\holohengento\debugproj\cppplugin2.cpp(24): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+c:\users\dell\documents\unity\holohengento\debugproj\cppplugin2.cpp(25): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+  DebugProj.cpp
+  main.cpp
+  コードを生成中...
+main.obj : error LNK2005: _main は既に DebugProj.obj で定義されています。
+CppPlugin2.obj : error LNK2019: 未解決の外部シンボル "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPAX@Z) が関数 "public: __thiscall cv::Mat::~Mat(void)" (??1Mat@cv@@QAE@XZ) で参照されました。
+main.obj : error LNK2001: 外部シンボル ""void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPAX@Z)" は未解決です。
+CppPlugin2.obj : error LNK2019: 未解決の外部シンボル "private: char * __thiscall cv::String::allocate(unsigned int)" (?allocate@String@cv@@AAEPADI@Z) が関数 "public: __thiscall cv::String::String(char const *)" (??0String@cv@@QAE@PBD@Z) で参照されました。
+main.obj : error LNK2001: 外部シンボル ""private: char * __thiscall cv::String::allocate(unsigned int)" (?allocate@String@cv@@AAEPADI@Z)" は未解決です。
+CppPlugin2.obj : error LNK2019: 未解決の外部シンボル "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ) が関数 "public: __thiscall cv::String::~String(void)" (??1String@cv@@QAE@XZ) で参照されました。
+main.obj : error LNK2001: 外部シンボル ""private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ)" は未解決です。
+CppPlugin2.obj : error LNK2019: 未解決の外部シンボル "void __cdecl cv::error(int,class cv::String const &,char const *,char const *,int)" (?error@cv@@YAXHABVString@1@PBD1H@Z) が関数 "public: unsigned char & __thiscall cv::Mat::at<unsigned char>(int,int)" (??$at@E@Mat@cv@@QAEAAEHH@Z) で参照されました。
+CppPlugin2.obj : error LNK2019: 未解決の外部シンボル "public: void __thiscall cv::Mat::create(int,int const *,int)" (?create@Mat@cv@@QAEXHPBHH@Z) が関数 "public: void __thiscall cv::Mat::create(int,int,int)" (?create@Mat@cv@@QAEXHHH@Z) で参照されました。
+CppPlugin2.obj : error LNK2019: 未解決の外部シンボル "public: void __thiscall cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QAEXXZ) が関数 "public: void __thiscall cv::Mat::release(void)" (?release@Mat@cv@@QAEXXZ) で参照されました。
+main.obj : error LNK2001: 外部シンボル ""public: void __thiscall cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QAEXXZ)" は未解決です。
+main.obj : error LNK2019: 未解決の外部シンボル "class cv::Mat __cdecl cv::imread(class cv::String const &,int)" (?imread@cv@@YA?AVMat@1@ABVString@1@H@Z) が関数 _main で参照されました。
+C:\Users\dell\Documents\Unity\HoloHengento\DebugProj\Debug\DebugProj.exe : fatal error LNK1120: 7 件の未解決の外部参照

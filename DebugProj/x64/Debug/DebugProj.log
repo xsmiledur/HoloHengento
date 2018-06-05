@@ -1,0 +1,3 @@
+﻿  CppPlugin2.cpp
+c1xx : warning C4199: 2 フェーズの名前参照は、C++/CLI、C++/CX、OpenMP ではサポートされていません。/Zc:twoPhase- を使用します
+  DebugProj.vcxproj -> C:\Users\dell\Documents\Unity\HoloHengento\DebugProj\x64\Debug\DebugProj.exe

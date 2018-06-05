@@ -1,0 +1,20 @@
+Hololensでリアルタイム画風変換の実装
+
+Hololens->(http/TCP通信?UDP通信?)->Python
+PyTorchで
+
+UDPの方が速度は速いそうな．UDPかな？
+
+UDP通信はこちら→http://knasa.hateblo.jp/entry/2017/07/07/034834
+
+多段sshで画像を転送 Hololens->(多段ssh:自PC)->仮想GPU環境 -> PyTorchで実行． ->自PC->(多段ssh:自PC)->Hololens
+
+もし自分のPCのCPU環境下でも早く動くならそっちの方がよいが，望みはなさそう．．．
+とりあえずスクリプティングのため自PCでPyTorchの環境を立てる．
+
+送る画像ファイルの重さにより，予め取得した画像はC++DLLでクロップして送った方がいいかもしれない．
+
+
+pythonのUDP通信：https://51flya.com/python/75.html
+UWPアプリ(Hololens)のUDP通信：http://tips.hecomi.com/entry/2017/04/19/011320
+http://knasa.hateblo.jp/entry/2017/07/07/034834
